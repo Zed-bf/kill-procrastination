@@ -1,0 +1,70 @@
+# ============================================================
+# Java / Maven / Spring Boot / IntelliJ IDEA
+# ============================================================
+
+# --- 编译输出 ---
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# --- Maven ---
+.mvn/
+mvnw
+mvnw.cmd
+
+# --- IDE (IntelliJ IDEA) ---
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# --- IDE (Eclipse / STS) ---
+.classpath
+.project
+.settings/
+.springBeans
+bin/
+
+# --- IDE (VS Code) ---
+.vscode/
+*.code-workspace
+
+# --- IDE (NetBeans) ---
+nbproject/
+nbbuild/
+dist/
+build/
+
+# --- 日志 ---
+*.log
+logs/
+
+# --- 操作系统 ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# --- 环境变量 / 敏感配置 ---
+.env
+.env.local
+application-local.yml
+application-dev.yml
+application-prod.yml
+*.pem
+*.key
+
+# --- 数据库 ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- 临时文件 ---
+tmp/
+temp/
+*.tmp
+*.bak
